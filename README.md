@@ -1,6 +1,6 @@
-# Sentiment
+# Machine Learning
 
-This is a repository for some projects that utilize Google Cloud Natural Language sentiment analysis.
+This is a repository for some projects that utilize Machine Learning.
 
 Please go to each folder for the README.md of the project.
 
