@@ -2,23 +2,6 @@
 
 This is a small project that plots the sentiment flow in a document.
 
-## Demo
-
-The program will show the sentiment flow for a selected url.
-
-```
-    import page_analyzer
-
-    panalyzer = page_analyzer.PageAnalyzer("https://ncode.syosetu.com/n6316bn/2/", "ja")
-    panalyzer.plot_sentiment_flow()
-```
-
-When initializing the PageAnalyzer object, you can try a url with the language it's in (available language codes are listed in [Language Support](https://cloud.google.com/natural-language/docs/languages)).
-
-Test URL: https://ncode.syosetu.com/n6316bn/2/
-
-![Sentiment Flow Plot](https://i.imgur.com/GqKW5dk.png)
-
 ## Getting Started
 
 Set up your [Google Cloud Natural Language API](https://cloud.google.com/natural-language/docs/quickstart-client-libraries).
@@ -42,6 +25,23 @@ Required Python the following libraries.
 ## Built With
 
 * [Python 3.8.1](https://www.python.org/downloads/release/python-381/)
+
+## Demo
+
+The program will show the sentiment flow for a selected url.
+
+```
+    import page_analyzer
+
+    panalyzer = page_analyzer.PageAnalyzer("https://ncode.syosetu.com/n6316bn/2/", "ja")
+    panalyzer.plot_sentiment_flow()
+```
+
+When initializing the PageAnalyzer object, you can try a url with the language it's in (available language codes are listed in [Language Support](https://cloud.google.com/natural-language/docs/languages)).
+
+Test URL: https://ncode.syosetu.com/n6316bn/2/
+
+![Sentiment Flow Plot](https://i.imgur.com/GqKW5dk.png)
 
 ## Authors
 
