@@ -1,6 +1,8 @@
 # Sentiment
 
-This is a repository for some projects that utilize sentiment analysis. Please go to each folder to read the README.md for each project.
+This is a repository for some projects that utilize Google Cloud Natural Language sentiment analysis.
+
+Please go to each folder for the README.md of the project.
 
 ## Authors
 
