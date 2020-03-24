@@ -1,4 +1,4 @@
-# Sentiment
+# Sentiment Flow
 
 This is a small project that plots the sentiment flow in a document.
 
