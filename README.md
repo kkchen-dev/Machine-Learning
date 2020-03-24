@@ -4,7 +4,7 @@ This is a repository for some projects that utilize sentiment analysis. Please g
 
 ## Authors
 
-* **[Kevin Chen](https://github.com/kkchen-dev)** - *Code*
+* **[Kevin Chen](https://github.com/kkchen-dev)**
 
 ## Acknowledgments
 
