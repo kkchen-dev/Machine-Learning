@@ -21,10 +21,10 @@ class PageAnalyzer:
             headers = json.load(f)
         
         _nlp = nlp.NLP(language)
-        # checks if the url response is 200(OK) and assign requests.get(url) to req_url
         self.soup = None
         self.soup_contents = []
         self.sentiments = []
+        # checks if the url response is 200(OK) and assign requests.get(url) to req_url
         if (req_url := requests.get(url, headers=headers)).status_code == 200:
             self.soup = BeautifulSoup(req_url.content, 'html.parser')
             # analyzes each sentence
