@@ -45,7 +45,7 @@ Required Python the following libraries.
 
 ## Authors
 
-* **[Kevin Chen](https://github.com/kkchen-dev)** - *Code*
+* **[Kevin Chen](https://github.com/kkchen-dev)**
 
 ## License
 
