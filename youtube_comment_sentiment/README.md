@@ -17,7 +17,6 @@ Requires the following libraries.
 ```
     pip install --upgrade requests
     pip install --upgrade google-cloud-language
-
 ```
 
 ## Built With
