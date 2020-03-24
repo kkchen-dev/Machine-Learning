@@ -12,7 +12,7 @@ Create a headers.json dictionary file to include headers for your webpages.
 
 ### Prerequisites
 
-Required Python the following libraries.
+Requires the following libraries.
 
 ```
     pip install --upgrade requests
