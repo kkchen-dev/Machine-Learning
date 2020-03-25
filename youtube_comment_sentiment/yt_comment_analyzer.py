@@ -3,7 +3,7 @@ import pathlib
 
 import requests
 
-import nlp
+from youtube_comment_sentiment import nlp
 
 class YTCAnalyzer:
     def __init__(self, videoId, maxResults=50):
@@ -29,7 +29,3 @@ class YTCAnalyzer:
     
 
     def get_average_score(self): return self.average_score
-
-if __name__ == "__main__":
-    ytcanalyzer = YTCAnalyzer("QHF8x25FxFM", 50)
-    print(ytcanalyzer.get_average_score())
