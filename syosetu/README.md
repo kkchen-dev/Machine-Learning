@@ -31,15 +31,16 @@ Requires the following libraries.
 The program will show the sentiment flow for a selected url.
 
 ```
-    import page_analyzer
+    from syosetu import syosetu_analyzer
 
-    panalyzer = page_analyzer.PageAnalyzer("https://ncode.syosetu.com/n6316bn/2/", "ja")
-    panalyzer.plot_sentiment_flow()
+    url = "https://ncode.syosetu.com/n6316bn/2/"
+    analyzer = syosetu_analyzer.SyosetuAnalyzer(analyzer_code="sl",
+                                                url=url,
+                                                language="ja")
+    analyzer.plot_sentiment_flow()
 ```
 
-When initializing the PageAnalyzer object, you can try a url with the language it's in (available language codes are listed in [Language Support](https://cloud.google.com/natural-language/docs/languages)).
-
-Test URL: https://ncode.syosetu.com/n6316bn/2/
+When initializing the SyosetuAnalyzer object, you can try a url with the language it's in (available language codes are listed in [Language Support](https://cloud.google.com/natural-language/docs/languages), however, normally "ja" for this website).
 
 ![Sentiment Flow Plot](https://i.imgur.com/GqKW5dk.png)
 
