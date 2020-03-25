@@ -28,11 +28,13 @@ Requires the following libraries.
 The program will show the average comment sentiment for a selected video.
 
 ```
-    import yt_comment_analyzer
+    from youtube_comment_sentiment import yt_comment_analyzer
 
     ytcanalyzer = yt_comment_analyzer.YTCAnalyzer("QHF8x25FxFM", 50)
-    print(ytcanalyzer.get_average_score())
+    print(f"{ytcanalyzer.get_average_score():.2}")
 ```
+
+Console Output: -0.29
 
 ## Authors
 
