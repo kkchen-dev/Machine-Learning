@@ -46,6 +46,8 @@ When initializing the SyosetuAnalyzer object, you can try a url with the languag
 
 ## License
 
+**[MIT License](../LICENSE)**
+
 ## Acknowledgments
 
 * [Billie Thompson](https://gist.github.com/PurpleBooth) provides [the template]((https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)) for this document.
