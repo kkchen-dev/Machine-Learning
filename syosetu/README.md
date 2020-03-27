@@ -4,7 +4,7 @@ This is a small project that plots the sentiment flow in a page on the popular J
 
 ## Getting Started
 
-Set up your [Google Cloud Natural Language API](https://cloud.google.com/natural-language/docs/quickstart-client-libraries).
+Setup your [Google Cloud Natural Language API](https://cloud.google.com/natural-language/docs/quickstart-client-libraries).
 
 You may want to use a virtual environment for your Python code.
 
@@ -31,8 +31,9 @@ Requires the following libraries.
 The program will show the sentiment flow for a selected url.
 
 ```
-    import page_analyzer
+import page_analyzer
 
+if __name__ == "__main__":
     panalyzer = page_analyzer.PageAnalyzer("https://ncode.syosetu.com/n6316bn/2/", "ja")
     panalyzer.plot_sentiment_flow()
 ```

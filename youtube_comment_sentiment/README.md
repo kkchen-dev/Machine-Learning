@@ -4,7 +4,7 @@ This is a small project that shows the average sentiment score of the comment se
 
 ## Getting Started
 
-Set up your [Google Cloud Natural Language API](https://cloud.google.com/natural-language/docs/quickstart-client-libraries).
+Setup your [Google Cloud Natural Language API](https://cloud.google.com/natural-language/docs/quickstart-client-libraries).
 
 Get your Google API key.
 
@@ -28,8 +28,9 @@ Requires the following libraries.
 The program will show the average comment sentiment for a selected video.
 
 ```
-    from youtube_comment_sentiment import yt_comment_analyzer
+from youtube_comment_sentiment import yt_comment_analyzer
 
+if __name__ == "__main__":
     ytcanalyzer = yt_comment_analyzer.YTCAnalyzer("QHF8x25FxFM", 50)
     print(f"{ytcanalyzer.get_average_score():.2}")
 ```
