@@ -1,6 +1,6 @@
-# Youtube Comment Analyzer
+# Line Sentiment Bot
 
-This is a small project that shows the average sentiment score of the comment section on a Youtube video.
+This is a LINE bot that replies a set of sentiment analysis to a message.
 
 ## Getting Started
 
