@@ -64,6 +64,8 @@ This is a LINE bot that will reply the sentiment analysis when triggered with wo
 
 ## License
 
+**[MIT License](../LICENSE)**
+
 ## Acknowledgments
 
 * [Billie Thompson](https://gist.github.com/PurpleBooth) provides [the template]((https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)) for this document.
