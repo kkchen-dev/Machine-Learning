@@ -1,6 +1,6 @@
 # Syosetu Sentiment Flow
 
-This is a small project that plots the sentiment flow in a page on the popular Japanese online novel website, [小説家になろう(Let's Become a Novelist)](http://syosetu.com/), using Google Cloud Natural Language.
+This is a small project that plots the sentiment flow in chosen pages on the popular Japanese online novel website, [小説家になろう(Let's Become a Novelist)](http://syosetu.com/), using Google Cloud Natural Language.
 
 ## Getting Started
 
