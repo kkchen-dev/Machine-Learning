@@ -4,7 +4,7 @@ This is a small project that plots the sentiment flow in a page on the popular J
 
 ## Getting Started
 
-Set up your [Google Cloud Natural Language API](https://cloud.google.com/natural-language/docs/quickstart-client-libraries).
+Setup your [Google Cloud Natural Language API](https://cloud.google.com/natural-language/docs/quickstart-client-libraries).
 
 You may want to use a virtual environment for your Python code.
 
@@ -30,15 +30,11 @@ Requires the following libraries.
 
 The program will show the sentiment flow for a selected url.
 
-```
-    from syosetu import syosetu_analyzer
+import page_analyzer
 
-    url = "https://ncode.syosetu.com/n6316bn/2/"
-    analyzer = syosetu_analyzer.SyosetuAnalyzer(analyzer_code="sl",
-                                                url=url,
-                                                language="ja")
-    analyzer.plot_sentiment_flow()
-```
+if __name__ == "__main__":
+    panalyzer = page_analyzer.PageAnalyzer("https://ncode.syosetu.com/n6316bn/2/", "ja")
+    panalyzer.plot_sentiment_flow()
 
 When initializing the SyosetuAnalyzer object, you can try a url with the language it's in (available language codes are listed in [Language Support](https://cloud.google.com/natural-language/docs/languages), however, normally "ja" for this website).
 

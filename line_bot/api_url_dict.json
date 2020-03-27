@@ -1,0 +1,4 @@
+{
+    "oauth_access_token": "https://api.line.me/v2/oauth/accessToken",
+    "message_reply": "https://api.line.me/v2/bot/message/reply"
+}
