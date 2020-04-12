@@ -30,11 +30,17 @@ Requires the following libraries.
 
 The program will show the sentiment flow for a selected url.
 
-import page_analyzer
+```
+from syosetu import syosetu_analyzer
 
 if __name__ == "__main__":
-    panalyzer = page_analyzer.PageAnalyzer("https://ncode.syosetu.com/n6316bn/2/", "ja")
+    panalyzer = syosetu_analyzer.SyosetuAnalyzer(
+                    url="https://ncode.syosetu.com/n6316bn/2/", 
+                    language="ja"
+                )
+    print(panalyzer.get_sentiments())
     panalyzer.plot_sentiment_flow()
+```
 
 When initializing the SyosetuAnalyzer object, you can try a url with the language it's in (available language codes are listed in [Language Support](https://cloud.google.com/natural-language/docs/languages), however, normally "ja" for this website).
 
@@ -46,7 +52,7 @@ When initializing the SyosetuAnalyzer object, you can try a url with the languag
 
 ## License
 
-**[MIT License](../LICENSE)**
+* **[MIT License](../LICENSE)**
 
 ## Acknowledgments
 

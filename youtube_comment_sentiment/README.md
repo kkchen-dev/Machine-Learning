@@ -43,7 +43,7 @@ Console Output: -0.29
 
 ## License
 
-**[MIT License](../LICENSE)**
+* **[MIT License](../LICENSE)**
 
 ## Acknowledgments
 

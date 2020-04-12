@@ -3,7 +3,7 @@ from abc import ABC, abstractmethod
 
 class PageAnalyzer(ABC):
     @abstractmethod
-    def __generate_sentiments(self, url, headers, language="ja"):
+    def _generate_sentiments(self, url, headers, language="ja"):
         pass
 
 

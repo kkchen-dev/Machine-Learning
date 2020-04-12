@@ -64,7 +64,7 @@ This is a LINE bot that will reply the sentiment analysis when triggered with wo
 
 ## License
 
-**[MIT License](../LICENSE)**
+* **[MIT License](../LICENSE)**
 
 ## Acknowledgments
 
