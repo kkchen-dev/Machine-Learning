@@ -14,11 +14,7 @@ class SinglePageByLineAnalyzer(singlepage_analyzer.SinglePageAnalyzer,
         super().__init__(url=url, language=language)
     
     
-    def _SinglePageAnalyzer__generate_sentiments(self, url:str, headers:dict, language:str="ja"):
-        self._PageAnalyzer__generate_sentiments(url=url, headers=headers, language=language)
-    
-    
-    def _PageAnalyzer__generate_sentiments(self, url:str, headers:dict, language:str="ja"):
+    def _generate_sentiments(self, url:str, headers:dict, language:str="ja"):
         self.generate_sentiments_byline(url=url, headers=headers, language=language)
 
 

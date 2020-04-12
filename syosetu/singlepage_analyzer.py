@@ -22,10 +22,10 @@ class SinglePageAnalyzer(page_analyzer.PageAnalyzer):
             headers = json.load(f)
         
         self.soup, self.soup_contents, self.sentiments = None, [], []
-        self.__generate_sentiments(url, headers, language)
+        self._generate_sentiments(url, headers, language)
 
     @abstractmethod
-    def __generate_sentiments(self, url:str, headers:dict, language:str="ja"):
+    def _generate_sentiments(self, url:str, headers:dict, language:str="ja"):
         pass
 
 
